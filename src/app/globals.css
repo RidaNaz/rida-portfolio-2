@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@200;300;400;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav_link {
+        @apply relative text-xl w-fit block after:block after:content-[""] after:absolute after:h-[3px] after:bg-emerald-500 text-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right
+    }
+
+    .custom-bg {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.811)), url("/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    }
+
+    .heading_mini {
+        @apply text-[17px] text-white opacity-75
+    }
+
+    .heading_primary {
+        @apply mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-white text-[27px] md:text-[30px] lg:text-[38px] xl:text-[45px]
+    }
+}
+
+.custom_service::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #323223 0, #3f3f3f 40%, #1c1c1c 150%), linear-gradient(to top, rgba(0, 8, 255, 0.4) 0, rgba(70, 14, 255, 0.25)200%);
+    background-blend-mode: multiply;
+    clip-path: circle(50px at 95% 4%);
+    border-radius: 0.5rem;
+    transition: all 0.8s;
+}
+
+.custom_service:hover::before {
+    clip-path: circle(1000px at 95% 4%);
+    z-index: -1000;
+}
