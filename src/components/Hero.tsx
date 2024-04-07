@@ -5,12 +5,12 @@ import TypeWriteEffect from './Helper/TypeWriteEffect'
 const Hero = () => {
     return (
         <div id="home" className="w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custom-bg">
-            <div className=" flex justify-center flex-col w-[80%] h-[100%] mx-auto">
+            <div className=" flex justify-center flex-col w-[90%] h-[100%] mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
                     <div className="">
                         <h1 data-aos="fade-right" className="text-[#c4cfde] mb-[1.3rem]">Welcome to my World</h1>
                         <div data-aos="fade-left" data-aos-delay="400">
-                            <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.6rem] text-white">Hi! I am
+                            <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[30px] text-[25px] font-semibold leading-[2.6rem] text-white"> <span className="font-logo">Hi ! </span> I am
                                 <span className="text-emerald-600"> Rida Naeem </span></h1>
                             <TypeWriteEffect />
                         </div>

@@ -37,42 +37,42 @@ const Skills = () => {
               percent="80%"
               />
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="800">
+            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="200">
               <SkillCard
               title="TypeScript"
               image="/ts.svg"
               percent="90%"
               />
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="1000">
+            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="400">
               <SkillCard
               title="Node Js"
               image="/node.svg"
               percent="95%"
               />
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="1200">
+            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="600">
               <SkillCard
               title="React"
               image="/react.svg"
               percent="75%"
               />
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement=" top-center" data-aos-delay="1400">
+            <div data-aos="flip-left" data-aos-anchor-placement=" top-center" data-aos-delay="1000">
               <SkillCard
               title="Next.js"
               image="/nextjs.svg"
               percent="80%"
               />
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="800">
+            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="400">
               <SkillCard
               title="MongoDB"
               image="/mongo.svg"
               percent="50%"
               />
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="800">
+            <div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="600">
               <SkillCard
               title="Python"
               image="/python.svg"

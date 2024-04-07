@@ -10,7 +10,7 @@ const Contact = () => {
                         Lets make your <span className='text-emerald-600'>Brand </span> brilliant
                     </h1>
                     <p className='text-[15px] text-white mt-[1rem] opacity-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti quibusdam tenetur repellat possimus molestias nihil mollitia rem debitis. Harum, perferendis ipsa? Corporis, nostrum distinctio. Enim, voluptatibus aspernatur. Consequuntur, minima?</p>
-                    <h1 className='mt-[2rem] mb-[2rem] text-[30px] text-emerald-600 underline font-bold'>+92 311 222333</h1>
+                    <h1 className='mt-[2rem] mb-[2rem] text-[30px] text-emerald-600 font-bold'>+92 311 222333</h1>
                 </div>
                 <div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-[1rem] items-center'>

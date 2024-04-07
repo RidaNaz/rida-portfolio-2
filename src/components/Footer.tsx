@@ -20,7 +20,7 @@ const Footer = () => {
                         Developer
                     </div>
                     <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam sint quasi ab laboriosam, ad natus.</h1>
-                    <p className="mt-[1.3rem] text-emerald-500 underline font-semibold" >rnaz3414@gmail.com</p>
+                    <p className="mt-[1.3rem] text-emerald-500 font-semibold" >rnaz3414@gmail.com</p>
                 </div>
 
                 <div className="md:mx-auto ">

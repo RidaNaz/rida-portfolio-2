@@ -29,7 +29,7 @@ const Navbar = ({ openNav }: Props) => {
 
     return (
         <div className={`fixed w-[100%] ${sticktStyle} transition-all duration-300 z-[1000]`}>
-            <div className="flex items-center h-[12vh] justify-between w-[90%] mr-5 ml-5 lg:mx-auto">
+            <div className="flex items-center h-[12vh] justify-between w-[90%] mr-5 ml-7 lg:mx-auto">
                 <div className='flex gap-3'>
                     <Image
                         src="/Ridalogo.svg"

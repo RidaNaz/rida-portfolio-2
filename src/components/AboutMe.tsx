@@ -54,13 +54,13 @@ const AboutMe = () => {
                             <p className="text-[20px] text-white font-600" >Happy Clients</p>
                         </div>
                         <div
-                            data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay="400"
+                            data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay="200"
                             className="p-6 text-center bg-gradient-to-bl from-emerald-800 to-gray-900 shadow-grey-900" >
                             <p className="text-[50px] text-white font-bold opacity-80" >300+</p>
                             <p className="text-[20px] text-white font-600" >Projects Done</p>
                         </div>
                         <div
-                            data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay="400"
+                            data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay="200"
                             className="p-6 text-center bg-gradient-to-br from-emerald-800 to-gray-900 shadow-grey-900" >
                             <p className="text-[50px] text-white font-bold opacity-80" >3+</p>
                             <p className="text-[20px] text-white font-600" >Award Wins</p>

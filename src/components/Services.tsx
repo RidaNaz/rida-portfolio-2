@@ -18,13 +18,13 @@ const Services = () => {
             <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400">
                 <ServicesCard title="Fullstack Website" num="03"/>
             </div>
-            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="600">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
                 <ServicesCard title="Node Js API" num="04"/>
             </div>
-            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="800">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400">
                 <ServicesCard title="MERN WebApp" num="05"/>
             </div>
-            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="1000">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="600">
                 <ServicesCard title="Bug Fixing" num="06"/>
             </div>
         </div>
